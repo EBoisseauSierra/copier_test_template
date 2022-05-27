@@ -1,0 +1,13 @@
+# Settings
+_min_copier_version: "6.0.0"
+_subdirectory: template
+
+# Template parameters
+project_name:
+  help: What is your project name?
+  type: str
+
+is_a_teapot:
+  help: Are you a teapot?
+  type: bool
+  default: false
